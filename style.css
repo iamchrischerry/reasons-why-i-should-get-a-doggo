@@ -43,10 +43,11 @@ ul {
     gap: 100px;
 }
 
-img {
+#running-dog {
     max-width: 100%;
     height: auto;
     width: auto\9; /* for IE8 */
+    border-radius: 10px;
 }
 
 .intro-header {
@@ -70,4 +71,14 @@ button {
     color: #f9faf8;
     font-weight: 900;
     margin-top: 18px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+img { 
+    max-width: 200px;
 }
