@@ -86,6 +86,12 @@ img {
     max-height: auto;
 }
 
+.dog-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .which-doggo {
     font-size: 30px;
     font-weight: 600;
@@ -96,14 +102,34 @@ img {
 
 .text {
     text-align: center;
-    margin-top: 5px;
+    margin-top: 10px;
     max-width: 170px;
     color: #0c1e58;
 }
 
 .third-container {
     background-color: #e5e7eb;
-    padding: 200px;
-    font-size: 32px;
-    font-family: 'Gelasio' , serif;
+    padding: 60px 300px 
+ 
+}
+
+.blockquote-text {
+    font-size: 36px;
+    font-weight: lighter;
+    font-family: 'Gelasio', serif;
     font-style: italic;
+    color: #3e4753e5;
+    line-height: 1.5;
+}
+
+.blockquote-credit {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: right;
+    font-family: 'Fasthand', serif;
+    color: #3e4753e5;
+}
+
+.blockquote-credit::before {
+    content: "\2014\0020"
+}
