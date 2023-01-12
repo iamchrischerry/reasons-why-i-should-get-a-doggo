@@ -53,6 +53,11 @@ a {
     border-radius: 10px;
 }
 
+.intro {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
 .intro-header {
     color: #f9faf8;
     font-size: 50px;
@@ -73,7 +78,8 @@ a {
     border: none;
     color: #f9faf8;
     font-weight: 900;
-    margin-top: 18px;
+    margin-top: 18px;]
+
     
 }
 
@@ -140,9 +146,6 @@ img {
     content: "\2014\0020"
 }
 
-.fourth-container {
-
-}
 
 .box {
     background-color: #3882f6;
